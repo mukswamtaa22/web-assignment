@@ -1,0 +1,128 @@
+*{
+	font-family: Gill sans, sans-serif;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #333;
+	text-transform: uppercase;
+
+}
+h1{
+	text-align:center;
+}
+h3{
+	margin: 5px;
+}
+.skill{
+	width: 500 px;
+	margin: 60px auto;
+	color: #fff;
+	padding: 10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skill li{
+	margin: 10px 0;
+	padding: 0px;
+	
+}
+.bar{
+	background: #353b48;
+	display: block;
+	height: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.5s cubic-bezier(.24,.7,.25,1);
+	
+}
+.bar:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+	height: 20px;
+	float: left;
+	background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+}
+.html{
+	width:75%;
+	animation: html 4s;
+}
+.essaywriting{
+	width:75%;
+	animation: essaywriting 4s;
+}
+.communication_skills{
+	width:85%;
+	animation: communication_skills 4s;
+}
+.management{
+	width:90%;
+	animation: management 4s;
+}
+.javascript{
+	width:50%;
+	animation: javascript 4s;
+}
+.css{
+	width:50%;
+	animation: css 4s;
+}
+.python{
+	width:60%;
+	animation: python 4s;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	color; white;
+}
+
+.title{
+	font-size: 1.5rem;
+	margin: .5rem;
+	text-transform: uppercase;
+	color: white;
+}
+.navbar-link ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	
+}
+.navbar-link li{
+	list-style: none;
+}
+.navbar-link li a{
+	text-decoration: none;
+	color: white;
+	padding: 1rem;
+	display: block;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 12px
+}
+.navbar-link li:hover{
+	background-color: #CD5C5C;
+}
+.toggle-button {
+	position: absolute;
+	top: .75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+.toggle-button .bar {
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
